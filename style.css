@@ -151,3 +151,28 @@ body {
     width: 198px;
   }
 }
+@media (min-width: 376px) and (max-width: 890px) {
+  body {
+    position: initial;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .container .orange .info,
+  .container .dark .info,
+  .container .varyDark .info {
+    margin-bottom: 30px;
+  }
+  .container .orange .info p,
+  .container .dark .info p,
+  .container .varyDark .info p {
+    width: 198px;
+  }
+}
